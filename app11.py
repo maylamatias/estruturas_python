@@ -1,9 +1,9 @@
 # Dicionário
 
 pessoa = {
-    "nome": "Joca da Silva",
     'nascimento': "2000-10-08",
-    'conceito': 'A'
+    'conceito': 'A',
+    "nome": "Joca da Silva",
 }
 
 print(pessoa['nome'])

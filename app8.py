@@ -1,7 +1,11 @@
+# Strings também são coleções
+
 fruta = 'banana'
 
-print(fruta)
-print(fruta[2])
+for letra in fruta:
+    print(letra)
 
-#for letra in fruta:
- #   print(letra)
+ano = 2026
+# print(ano[0])   ← ERRO!
+# for x in ano:   ← ERRO!
+#    print(x)    

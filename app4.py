@@ -1,6 +1,8 @@
+# Usando métodos de 'strings'. Ex.: str.lower()
+
 import os
 
-# Define o valor da variável
+# Define o valor das variáveis
 has_invitation = is_vip = False
 invited = age = vip = str()
 
@@ -9,16 +11,15 @@ os.system("cls")
 
 # Recebe dados do usuário
 age = int(input('Digite a idade: '))
-vip = input("É vip [sim/não]? ")
+vip = input('É vip [sim/não]? ')
 
 # Testa a entrada do usuário
 if vip.lower() == 'sim':
-    is_vip =True
-
-else: 
+    is_vip = True
+else:
     invited = input('Tem convite [sim/não]? ')
 
-# Testa a entrada do usuário por convite 
+# Testa a entrada do usuário
 if invited.lower() == 'sim':
     # Neste caso, altera o valor da variável
     has_invitation = True

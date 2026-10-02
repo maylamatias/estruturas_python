@@ -1,3 +1,5 @@
+# Tipos de dados nas coleções
+
 import os
 
 os.system("cls")
@@ -17,5 +19,7 @@ print()
 print(users)
 print(users[0], users[1], users[2])
 
-print(users[2][0])
+print()
+print(users[2])
+print(users[2][0], users[2][2])
 
